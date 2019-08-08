@@ -1,0 +1,14 @@
+// ----- Buttons
+.c-btn {
+  display: flex;
+  min-width: 200px;
+  padding: 25px 45px;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background:  linear-gradient(rgba(#fff, 0) 0%, rgba(#fff, 0) 90%, #23b3a8 10px), linear-gradient(0deg, #30d5c8, #31edde);
+  box-shadow: rgba(#30d5c8, 0.5) 0 0 21px;
+  cursor: pointer;
+}

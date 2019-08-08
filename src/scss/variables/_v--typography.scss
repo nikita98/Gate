@@ -1,0 +1,48 @@
+//----- Variables / Typography
+
+//------FONT-FACE
+
+// Examples
+// main path to font directory is defined at src/scss/mixins/_m--font-face.scss
+// @include fontFace (FontName, fontFolder, 400, normal, <formats>(ex: woff ttf svg));
+@include fontFace(Stolzl-Regular, Stolzl-Regular, 400, normal, ttf);
+@include fontFace(Stolzl-Regular, Stolzl-Regular, 400, normal, woff);
+@include fontFace(Stolzl-Medium, Stolzl-Medium, 500, normal, ttf);
+@include fontFace(Stolzl-Medium, Stolzl-Medium, 500, normal, woff);
+
+//------FONT FAMILY VARIABLE
+$fontDefault             : 'Stolzl-Regular', sans-serif;
+
+// Examples
+// $ff == $font-family
+$ff-main-regular         : 'Stolzl-Regular', $fontDefault;
+$ff-main-italic          : 'Stolzl-Regular', $fontDefault;
+
+//----- Font size
+$font-size-base         : 18px;
+
+//------GLOBAL FONT SETTINGS
+html {
+  @include font-size-vw($font-size-base, $font-size-base, $font-size-base);
+}
+body {
+    font-family: $ff-main-regular;
+    -webkit-font-smoothing: antialiased;
+
+    &.fixed {
+      @include breakpoint(phone) {
+        overflow: hidden;
+      }
+    }
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  margin: 15px 0;
+}
+h2 {}
+a {
+    text-decoration: none;
+}
+p {}

@@ -1,0 +1,24 @@
+/html/library
+*.serialize
+*.bak
+*.bk
+*.old
+.svn
+node_modules/
+vendor/
+
+# OS junk files
+[Tt]humbs.db
+*.DS_Store
+*.swp
+
+# IDE junk files
+.project
+.buildpath
+.settings
+.idea
+
+# webpack generated files
+html/css/styles.css*
+html/js/master.bundle.js*
+stats.json

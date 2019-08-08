@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Stolzl';
+    src: url('Stolzl-Medium.eot');
+    src: url('Stolzl-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Stolzl-Medium.woff2') format('woff2'),
+        url('Stolzl-Medium.woff') format('woff'),
+        url('Stolzl-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stolzl';
+    src: url('Stolzl-Regular.eot');
+    src: url('Stolzl-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Stolzl-Regular.woff2') format('woff2'),
+        url('Stolzl-Regular.woff') format('woff'),
+        url('Stolzl-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

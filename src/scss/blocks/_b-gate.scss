@@ -13,10 +13,18 @@
   &__picker{
     padding-bottom: 40px;
   }
-  &__img-wrap{
+  &__imgs{
     height: 100%;
+  }
+  &__img-wrap{
     width: 100%;
-    padding: 40px 0;
+    height: 0px;
+    padding: 0;
+    &.active{
+      height: 100%;
+      padding: 40px 0;
+
+    }
   }
   &__img{
     height: 100%;
@@ -24,7 +32,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 400px;
   }
   &__picker-item{
     height: 65px;
